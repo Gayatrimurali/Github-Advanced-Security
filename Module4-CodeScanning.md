@@ -124,7 +124,7 @@ In this task, you will learn how to enable and configure the advanced CodeQL set
 
    >**Note:** If it is already enabled, click on **Switch to Advanced**
 
-1. Now you are redirect to the codeql.yml file in github/ workflows directory, and we need to copy the string **queries: security-extended (1)** from the **codeql.yml** file  and append this to a new line at number 66 under **Initialize CodeQL** section , which will read as **queries: security-extended (2)** as shown in the below screenshot. Commit these changes to your **main branch (3)**.
+1. Now you are redirect to the codeql.yml file in github/ workflows directory, and we need to copy the string **queries: security-extended (1)** from the **codeql.yml** file in line number 78 and append this to a new line at number 71 under  under **Initialize CodeQL** section , which will read as **queries: security-extended (2)** as shown in the below screenshot. Commit these changes to your **main branch (3)**.
 
    ![github-advisory-database](images/java-codeql-ymlat.png)
 
@@ -167,7 +167,7 @@ In this task, you will learn how to enhance CodeQL's security analysis by enabli
 
    ![github-advisory-database](images/gl.png)
 
-1. We are going to make similar updates to the `codeql.yml` file as we did in the `Advanced Setup` section, we need to copy the string **queries: security-extended (1)** from the **codeql.yml** file  and append this to a new line at number 66 under **Initialize CodeQL** section , which will read as **queries: security-extended (2)** as shown in the below screenshot. Commit these changes to your **main branch (3)** by clickin on **Commit changes.**
+1. We are going to make similar updates to the `codeql.yml` file as we did in the `Advanced Setup` section, we need to copy the string **queries: security-extended (1)** from the **codeql.yml** file in line number 77 and append this to a new line at number 72 under **Initialize CodeQL** section , which will read as **queries: security-extended (2)** as shown in the below screenshot. Commit these changes to your **main branch (3)** by clickin on **Commit changes.**
 
    ![github-advisory-database](images/python-codeql-ymlat.png)
 
@@ -187,7 +187,7 @@ In this task, you will learn how to enhance CodeQL's security analysis by enabli
 
    ![github-advisory-database](images/gnat.png)
 
-   >**Note:** Uncomment the lines of code.   
+   >**Note:** Uncomment all the lines of the code in the file.   
 
 1. Click on commit to commit these changes to a **new branch** then click on **Propose changes.**  
  
