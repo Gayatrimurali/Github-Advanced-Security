@@ -64,6 +64,14 @@ In this task, you will learn how to activate the default CodeQL setup for a Pyth
 
    >**Note**: Zoom out of the page if you are unable to see the **Settings** option from the top navigation pane.
 
+1. Scroll down and click on **Enable** for GitHub Advanced Security.
+
+   ![github-advisory-database](images/shag1.png)
+
+1. Click on **Enable Github Advanced Security for this repository**.
+
+   ![github-advisory-database](images/shag2.png)
+
 1. Scroll down and you will find the **Code Scanning** option. Scroll to the right then click on the **Setup (1)** button and we have two options to configure code scanning. That is **Default** and **Advanced** as depicted in the screenshot below. For now, click on **Default (2)**
 
    ![github-advisory-database](images/sec15.png)
@@ -102,13 +110,13 @@ In this task, you will learn how to enable and configure the advanced CodeQL set
 
    ![github-advisory-database](images/image1.png)
 
-1. If code scanning is already enabled, select "Advanced Security" from the dropdown to switch to the advanced option.
-   
-   ![github-advisory-database](images/switch_advance.png)
+1. Scroll down and click on **Enable** for GitHub Advanced Security.
 
-1. A Pop-up Appears disbale Codeql
+   ![github-advisory-database](images/shag1.png)
 
-   ![github-advisory-database](images/disable_codeql.png)
+1. Click on **Enable Github Advanced Security for this repository**.
+
+   ![github-advisory-database](images/shag2.png)
    
 1. Scroll to the right then click on the **Setup (1)** button and then click on **Advanced (2)**
 
